@@ -1,0 +1,10 @@
+# Ignorar entorno virtual
+env/
+venv/
+
+# Ignorar secretos de Streamlit
+.streamlit/secrets.toml
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pycpython -m venv env
